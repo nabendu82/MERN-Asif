@@ -120,3 +120,75 @@ p {
     background-color: darkblue;
     cursor: pointer;
 }
+
+.block{
+    float: left;
+    width: 33.33%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main__block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+#side__bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    background-image: url('./images/large-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
+}
+
+.my-list li:first-child{
+    background-color: rebeccapurple;
+}
+
+.my-list li:last-child{
+    background-color: yellowgreen;
+}
+
+.my-list li:nth-child(5){
+    background-color: lightcoral;
+}
+
+.dynamic-list li:nth-child(odd){
+    background-color: lightblue;
+}
+
+.dynamic-list li:nth-child(even){
+    background-color: lightgreen;
+}
