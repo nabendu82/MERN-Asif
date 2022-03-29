@@ -160,12 +160,14 @@ p {
     position: absolute;
     top: 140px;
     left: 200px;
+    color: white;
 }
 
 .position-box h2{
     position: absolute;
     bottom: 40px;
     right: 200px;
+    color: white;
 }
 
 .fixed-button{
