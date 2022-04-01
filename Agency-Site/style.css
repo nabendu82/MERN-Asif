@@ -63,6 +63,15 @@ header a:hover{
     background-position: 0 -500px;
     text-align: center;
     color: white;
+    padding-top: 12px;
+}
+
+#showcase h1{
+    font-size: 50px;
+}
+
+#showcase p{
+    font-size: 20px;
 }
 
 #boxes{
@@ -107,4 +116,32 @@ footer{
     background: #35424a;
     color: white;
     margin-top: 10px;
+}
+
+@media(max-width: 768px){
+    header{
+        height: 90px;
+    }
+    
+    header .branding,
+    header nav,
+    #boxes .box,
+    #main-col,
+    #sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #showcase h1{
+        font-size: 25px;
+    }
+    
+    #showcase p{
+        font-size: 16px;
+    }
+
+    #boxes .box:nth-child(3){
+        margin-bottom: 80px;
+    }
 }
