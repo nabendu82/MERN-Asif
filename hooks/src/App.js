@@ -1,18 +1,22 @@
 import React from 'react'
 import './App.css';
-import GrandParent from './components/GrandParent';
+import ClassTimer from './components/ClassTimer';
+import HookTimer from './components/HookTimer';
+// import GrandParent from './components/GrandParent';
 
-export const UserContext = React.createContext()
-export const ChannelContext = React.createContext()
+// export const UserContext = React.createContext()
+// export const ChannelContext = React.createContext()
 
 function App() {
   return (
     <div className="App">
-      <UserContext.Provider value='Nabendu'>
+      {/* <UserContext.Provider value='Nabendu'>
         <ChannelContext.Provider value='TWD'>
           <GrandParent />
         </ChannelContext.Provider>
-      </UserContext.Provider>
+      </UserContext.Provider> */}
+      <ClassTimer />
+      <HookTimer />
     </div>
   );
 }
